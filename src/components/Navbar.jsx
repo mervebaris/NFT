@@ -14,7 +14,24 @@ export default function Navbar() {
         </div>
         <div className="toggle-container">
           <div className="toggle"></div>
+          <div className="mode"></div>
         </div>
+      </div>
+      <div className="links-container">
+        <ul className="links">
+          <li>
+            <a href="#">Features</a>
+          </li>
+          <li>
+            <a href="#">Features</a>
+          </li>
+          <li>
+            <a href="#">Features</a>
+          </li>
+          <li>
+            <a href="#">Features</a>
+          </li>
+        </ul>
       </div>
     </nav>
   
