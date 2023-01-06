@@ -23,7 +23,7 @@ export default function Like() {
         </div>
         <div className="content">
           <div className="image">
-          <img src={eth2} alt="eth2" />
+            <img src={eth2} alt="eth2" />
           </div>
           <h2 className="title">An NFT like no other</h2>
           <p className="description">

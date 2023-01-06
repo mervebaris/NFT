@@ -43,15 +43,14 @@ export default function SuperRare() {
   return (
     <div className="super-rare">
       <div className="title-container">
-        <h2 className="title">LE Super Rare Auction </h2>
+        <h2 className="title">LE Super Rare Auction</h2>
         <p className="description">
-          We have released four limited edition NFT's early which can be bid on
-          via
-          <a href="#"> OpenSea</a>
+          We have released four limited edition NFT's early which which can be
+          bid on via <a href="#">OpenSea</a>.
         </p>
       </div>
       <div className="cards">
-        {data.map(({image, series, title, price, tag, time}, index) => (
+        {data.map(({ image, series, title, price, tag, time }, index) => (
           <Card
             image={image}
             series={series}

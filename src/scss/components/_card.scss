@@ -2,10 +2,6 @@
     background-color: var(--card-color);
     width: max-content;
     border-radius: 1rem;
-    &-image {
-      img {
-      }
-    }
     &-content {
       display: flex;
       flex-direction: column;
@@ -29,15 +25,9 @@
         display: flex;
         justify-content: space-between;
         color: var(--accent-color1);
-        .card-title {
-        }
         .card-price {
           display: flex;
           gap: 1rem;
-          img {
-          }
-          h4 {
-          }
         }
       }
       .card-sub-details {

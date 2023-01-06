@@ -1,6 +1,6 @@
+
 import React from "react";
 import signup from "../assets/signup.png";
-
 export default function Signup() {
   return (
     <div className="signup">
@@ -15,7 +15,7 @@ export default function Signup() {
           <button>Sign Up</button>
         </div>
         <div className="image-container">
-        <div className="image">
+          <div className="image">
             <img src={signup} alt="home image" />
           </div>
           <div className="ellipse-container">
