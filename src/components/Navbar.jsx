@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
 import { ImSun } from "react-icons/im";
 import { BsFillMoonFill } from "react-icons/bs";
-import logo from "../assest/logo.png";
+import logo from "../assets/logo.png";
 
 export default function Navbar() {
   const [navState, setNavState] = useState(false);
@@ -23,13 +23,13 @@ export default function Navbar() {
             <a href="#">Features</a>
           </li>
           <li>
-            <a href="#">Features</a>
+            <a href="#">About</a>
           </li>
           <li>
-            <a href="#">Features</a>
+            <a href="#">Launch</a>
           </li>
           <li>
-            <a href="#">Features</a>
+            <a href="#">Sing Up</a>
           </li>
         </ul>
       </div>
